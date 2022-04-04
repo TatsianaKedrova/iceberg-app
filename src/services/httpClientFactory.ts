@@ -1,5 +1,5 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
-import { ConfigService } from "../config/configService";
+import { ConfigService } from "../containers/config/configService";
 import { ConfigParam } from "../enums/config-params.enum";
 
 const httpClientFactory = (configService: ConfigService): AxiosInstance => {

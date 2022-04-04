@@ -24,7 +24,6 @@ const Calendar = () => {
     return `${day} ${month} ${year}`;
   }, [new Date()]);
 
-  console.log("date format: ", new Date(yesterdayDate));
 
   const periodFromInitial = useMemo(() => {
     const firstMonthDay = new Date();

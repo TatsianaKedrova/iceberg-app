@@ -1,15 +1,15 @@
 import React from "react";
 import { classValidatorResolver } from "@hookform/resolvers/class-validator";
 import { SubmitHandler, useForm } from "react-hook-form";
-import { PasswordRestoreWitEmail } from "../UI/FormComponents/ClassValidator";
+import { PasswordRestoreWitEmail } from "../../UI/FormComponents/ClassValidator";
 import { useNavigate } from "react-router-dom";
-import { authService } from "../../services";
+import { authService } from "../../../services";
 import { useMutation } from "react-query";
 import { Button, CircularProgress, Container, Stack } from "@mui/material";
-import ButtonCommon from "../commonElements/ButtonCommon";
-import LabelForm from "../UI/FormComponents/LabelForm";
-import TextInput from "../UI/FormComponents/TextInput";
-import { formStyles } from "../LoginForm/formStyles.styles";
+import ButtonCommon from "../../commonElements/ButtonCommon";
+import LabelForm from "../../UI/FormComponents/LabelForm";
+import TextInput from "../../UI/FormComponents/TextInput";
+import { formStyles } from "../formStyles.styles";
 import { Box } from "@mui/system";
 
 const EmailForPasswordRestoration = () => {

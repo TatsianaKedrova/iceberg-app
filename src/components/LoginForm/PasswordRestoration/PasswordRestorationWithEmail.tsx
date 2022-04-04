@@ -1,10 +1,10 @@
 import React from "react";
 import { Box } from "@mui/material";
-import HeaderContainerCommon from "../commonElements/HeaderContainerCommon";
-import FormContainer from "../LoginForm/FormContainer";
-import { formStyles } from "../LoginForm/formStyles.styles";
-import FormTitleBig from "../LoginForm/FormTitleBig";
-import FormTitleSmall from "../LoginForm/FormTitleSmall";
+import HeaderContainerCommon from "../../commonElements/HeaderContainerCommon";
+import FormContainer from "../FormContainer";
+import { formStyles } from "../formStyles.styles";
+import FormTitleBig from "../FormTitleBig";
+import FormTitleSmall from "../FormTitleSmall";
 import { QueryClient, QueryClientProvider, useMutation } from "react-query";
 import EmailForPasswordRestoration from "./EmailForPasswordRestoration";
 
