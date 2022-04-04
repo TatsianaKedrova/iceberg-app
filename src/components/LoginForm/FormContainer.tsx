@@ -12,13 +12,14 @@ const FormContainer: React.FC<FormContainerType> = ({ children }) => {
         direction={"row"}
         justifyContent={"space-between"}
         alignItems={"stretch"}
+        
       >
         <Grid item xs={12} sm={4.8} lg={5.5} xl={4.8}>
           <Container maxWidth="sm" disableGutters sx={formStyles.container}>
             {children}
           </Container>
         </Grid>
-        <Grid xs sm={7.2} lg={6.5} xl={7.2}>
+        <Grid item xs sm={7.2} lg={6.5} xl={7.2}>
           <CommonPicture />
         </Grid>
       </Grid>

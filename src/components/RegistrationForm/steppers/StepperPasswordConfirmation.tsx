@@ -25,6 +25,7 @@ const StepperPasswordConfirmation: React.FC<IStepperFormProps> = ({
         }}
       >
         <PasswordInput
+          autoComplete="current-password"
           fullWidth
           size="small"
           label={<LabelForm labelName="Password" isError={errors.password} />}

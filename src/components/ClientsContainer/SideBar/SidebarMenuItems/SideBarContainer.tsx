@@ -8,7 +8,7 @@ import { ReactComponent as SettingsIcon } from "../../../assets/menuIcons/settin
 import { observer } from "mobx-react-lite";
 import SideBarContainerOpened from "../SideBarContainerOpened";
 
-type SideBarContainer = {
+type SideBarContainerProps = {
   isOpened: boolean;
 };
 
@@ -18,7 +18,7 @@ export type MenuItemType = {
   routesLink: string;
 };
 
-const SideBarContainer: React.FC<SideBarContainer> = observer(
+const SideBarContainer: React.FC<SideBarContainerProps> = observer(
   ({ isOpened }) => {
     const menuItems: MenuItemType[] = [
       {

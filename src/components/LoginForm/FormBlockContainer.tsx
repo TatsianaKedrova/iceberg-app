@@ -55,6 +55,7 @@ const FormBlockContainer = () => {
     >
       <Box sx={formStyles.textFieldContainer}>
         <TextInput
+          autoComplete="username"
           fullWidth
           size="small"
           label={<LabelForm labelName="Email" isError={errors.email} />}
@@ -74,6 +75,7 @@ const FormBlockContainer = () => {
           inputProps={register("email", { required: true })}
         />
         <PasswordInput
+          autoComplete="current-password"
           fullWidth
           size="small"
           label={<LabelForm labelName="Password" isError={errors.password} />}

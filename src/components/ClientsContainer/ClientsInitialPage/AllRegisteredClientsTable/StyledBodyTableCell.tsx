@@ -1,5 +1,4 @@
 import { TableCell } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
 import { clientsStyles } from "../../clientsStyles.styles";
 
 interface StyledBodyTableCellProps {
@@ -9,7 +8,6 @@ interface StyledBodyTableCellProps {
 const StyledBodyTableCell: React.FC<StyledBodyTableCellProps> = ({
   cellName,
 }) => {
-  const theme = useTheme();
 
   return (
     <TableCell

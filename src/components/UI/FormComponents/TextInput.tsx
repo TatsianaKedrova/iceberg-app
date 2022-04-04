@@ -2,7 +2,7 @@ import React from "react";
 import { OutlinedInputProps, TextFieldProps } from "@mui/material";
 import { StyledTextField } from "./StyledTextField";
 
-type MyTextInputProps = TextFieldProps & { endAdornment?: React.ReactNode }
+type MyTextInputProps = TextFieldProps & { endAdornment?: React.ReactNode };
 
 const TextInput: React.FC<MyTextInputProps> = (props) => {
   return (
@@ -12,7 +12,7 @@ const TextInput: React.FC<MyTextInputProps> = (props) => {
       InputProps={
         {
           notched: false,
-          endAdornment: props.endAdornment
+          endAdornment: props.endAdornment,
         } as Partial<OutlinedInputProps>
       }
       {...props}
