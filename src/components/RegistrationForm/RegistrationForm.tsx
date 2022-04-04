@@ -59,8 +59,6 @@ const RegistrationForm = () => {
   const onSubmit: SubmitHandler<FormInputsValidation> = (
     data: FormInputsValidation
   ) => {
-    console.log("data: ", data);
-    console.log("we are inside submit");
     authStore.registerUser({
       ...data,
       clientCreationNeeded: false,

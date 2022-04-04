@@ -1,5 +1,5 @@
 import React from 'react';
-import { clientsStyles } from '../ClientsContainer/clientsStyles.styles';
+import { clientsStyles } from '../ClientsContainer/styles/clientsStyles.styles';
 import { Box, CircularProgress } from '@mui/material';
 
 const LoadingIcon = () => {

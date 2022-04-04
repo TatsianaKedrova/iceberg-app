@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import { clientsStyles } from "../ClientsContainer/clientsStyles.styles";
+import { clientsStyles } from "../ClientsContainer/styles/clientsStyles.styles";
 import { Outlet } from "react-router-dom";
 import { observer } from "mobx-react-lite";
 import NewSidebar from "../ClientsContainer/SideBar/NewSidebar";

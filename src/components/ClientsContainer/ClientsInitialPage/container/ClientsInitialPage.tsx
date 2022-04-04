@@ -1,7 +1,7 @@
 import React from "react";
 import { observer } from "mobx-react-lite";
 import { QueryClient, QueryClientProvider } from "react-query";
-import AllRegisteredClientsContainer from "./ClientsInitialPage/AllRegisteredClientsTable/AllRegisteredClientsContainer";
+import AllRegisteredClientsContainer from "./AllRegisteredClientsContainer";
 
 const queryClient = new QueryClient();
 

@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
 import React, { ReactElement } from "react";
 import { Navigate } from "react-router-dom";
-import clientsStore from "../../mobX/clients.store";
+import clientsStore from "../../../mobX/clients.store";
 
 const RequireClientId = observer(
   ({ children }: { children: JSX.Element }): ReactElement => {

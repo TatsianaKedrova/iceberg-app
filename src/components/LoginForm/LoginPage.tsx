@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import FormContainer from "./FormContainer";
 import { Box } from "@mui/material";
-import { Auth } from "./FormBlockContainer";
+import { Auth } from "./container/FormBlockContainer";
 import HeaderContainerCommon from "../commonElements/HeaderContainerCommon";
 import HeaderText from "../commonElements/HeaderText";
 import RedirectComponent from "./RedirectComponent";

@@ -1,6 +1,6 @@
 import { Container, Grid } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { clientsStyles } from "../clientsStyles.styles";
+import { clientsStyles } from "../styles/clientsStyles.styles";
 import SideBarContainer from "./SidebarMenuItems/SideBarContainer";
 import ProfileMenu from "./SidebarProfile/ProfileMenu";
 import { ReactComponent as LogoIceberg } from "../../assets/menuIcons/icebergLogo.svg";

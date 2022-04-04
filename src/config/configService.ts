@@ -1,4 +1,4 @@
-import { ConfigParam } from '../../enums/config-params.enum';
+import { ConfigParam } from '../enums/config-params.enum';
 
 export class ConfigService {
   public get<T = any>(paramName: ConfigParam, defaultValue?: T): T | undefined {

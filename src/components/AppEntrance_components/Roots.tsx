@@ -5,12 +5,12 @@ import NotFound from "./NotFound";
 import Box from "@mui/material/Box";
 import CircularProgress from "@mui/material/CircularProgress";
 import PasswordRestorationWithEmail from "../LoginForm/PasswordRestoration/PasswordRestorationWithEmail";
-import ClientsInitialPage from "../ClientsContainer/ClientsInitialPage";
+import ClientsInitialPage from "../ClientsContainer/ClientsInitialPage/container/ClientsInitialPage";
 import ProfilePage from "../Profile/ProfilePage";
 import NewPassword from "../LoginForm/PasswordRestoration/NewPassword";
-import AuthorizedArea from "./AuthorizedArea";
-import RequireAuth from "./RequireAuth";
-import RequireClientId from "./RequireClientId";
+import AuthorizedArea from "./AuthCheck/AuthorizedArea";
+import RequireAuth from "./AuthCheck/RequireAuth";
+import RequireClientId from "./AuthCheck/RequireClientId";
 import ClientPageLayout from "./ClientPageLayout";
 import DashBoard from "../Dashboard/DashBoard";
 

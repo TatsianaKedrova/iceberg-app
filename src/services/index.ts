@@ -1,6 +1,6 @@
 import AuthenticationService from "./AuthenticationService";
 import httpClientFactory from "./httpClientFactory";
-import configService from "../containers/config/configService";
+import configService from "../config/configService";
 import ClientsService from "./ClientsService";
 import CloudAccountsService from "./CloudAccountsService";
 

@@ -1,5 +1,5 @@
 import { TableCell } from "@mui/material";
-import { clientsStyles } from "../../clientsStyles.styles";
+import { clientsStyles } from "../../styles/clientsStyles.styles";
 
 interface StyledBodyTableCellProps {
   cellName?: string | null;

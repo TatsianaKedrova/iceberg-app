@@ -1,58 +1,43 @@
-import { useForm, SubmitHandler } from "react-hook-form";
-import { formStyles } from "./formStyles.styles";
-import Box from "@mui/material/Box";
-import { observer } from "mobx-react-lite";
-import RedirectComponent from "./RedirectComponent";
-import { classValidatorResolver } from "@hookform/resolvers/class-validator";
-import { Stack } from "@mui/material";
-import PasswordInput from "../UI/FormComponents/PasswordInput";
-import TextInput from "../UI/FormComponents/TextInput";
-import LabelForm from "../UI/FormComponents/LabelForm";
-import ButtonCommon from "../commonElements/ButtonCommon";
-import { LoginFormTypes } from "../UI/FormComponents/ClassValidator";
-import authStore from "../../mobX/auth.store";
-import { LogInType } from "../../dtos/authDTO/authentication-result.dto";
-import { Navigate } from "react-router-dom";
-import logIn from "../assets/authIcons/logIn.svg";
-import { useEffect } from "react";
+import React from "react";
+import { Box, Stack } from "@mui/material";
+import { formStyles } from "../formStyles.styles";
+import TextInput from "../../UI/FormComponents/TextInput";
+import LabelForm from "../../UI/FormComponents/LabelForm";
+import PasswordInput from "../../UI/FormComponents/PasswordInput";
+import ButtonCommon from "../../commonElements/ButtonCommon";
+import RedirectComponent from "../RedirectComponent";
+import authStore from "../../../mobX/auth.store";
+import logIn from "../../assets/authIcons/logIn.svg";
+import {
+  FieldErrors,
+  FieldNamesMarkedBoolean,
+  UseFormTrigger,
+  UseFormRegister,
+  UseFormGetValues,
+} from "react-hook-form";
+import { LoginFormTypes } from "../../UI/FormComponents/ClassValidator";
 
-const FormBlockContainer = () => {
-  const {
-    getValues,
-    register,
-    handleSubmit,
-    trigger,
-    formState: { dirtyFields, errors, isDirty },
-  } = useForm<LoginFormTypes>({
-    resolver: classValidatorResolver(LoginFormTypes),
-  });
+interface IFormContainerUI {
+  errors: FieldErrors;
+  trigger: UseFormTrigger<LoginFormTypes>;
+  getValues: UseFormGetValues<LoginFormTypes>;
+  register: UseFormRegister<LoginFormTypes>;
+  isDirty: boolean;
+  dirtyFields: FieldNamesMarkedBoolean<LoginFormTypes>;
+}
 
-  useEffect(() => {
-    authStore.setUserStorage(null);
-    authStore.setToken(null);
-  }, []);
-
-  const onSubmit: SubmitHandler<LoginFormTypes> = (data: LoginFormTypes) => {
-    const { email, password } = data;
-    authStore.logIn({
-      login: email,
-      password,
-    } as LogInType);
-  };
-
-  //Auth Store
-  const { isAuth, isError } = authStore;
-
-  if (isAuth) {
-    return <Navigate to="/clients" />;
-  }
+const FormContainerUI: React.FC<IFormContainerUI> = ({
+  errors,
+  trigger,
+  getValues,
+  register,
+  isDirty,
+  dirtyFields,
+}) => {
+  const { isError } = authStore;
 
   return (
-    <Box
-      component="form"
-      sx={formStyles.formContainer}
-      onSubmit={handleSubmit(onSubmit)}
-    >
+    <>
       <Box sx={formStyles.textFieldContainer}>
         <TextInput
           autoComplete="username"
@@ -111,9 +96,8 @@ const FormBlockContainer = () => {
           linkTo="/restore-password"
         />
       </Stack>
-    </Box>
+    </>
   );
 };
 
-const Auth = observer(FormBlockContainer);
-export { Auth };
+export default FormContainerUI;
