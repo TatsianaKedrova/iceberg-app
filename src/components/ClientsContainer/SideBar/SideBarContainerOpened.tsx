@@ -4,7 +4,7 @@ import separator from "../../assets/menuIcons/separator.svg";
 import { Box } from "@mui/material";
 import { observer } from "mobx-react-lite";
 import { MenuItemType } from "./SidebarMenuItems/SideBarContainer";
-import { clientsStyles } from "../styles/clientsStyles.styles";
+import { clientsStyles } from "../clientsContainer-styles/clientsStyles.styles";
 import SelectedClientSideBar from "./SelectedClientSideBar";
 import SideBarItem from "./SidebarMenuItems/SideBarItem";
 

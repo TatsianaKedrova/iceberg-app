@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu, MenuItem } from "@mui/material";
-import { clientsStyles } from "../../styles/clientsStyles.styles";
+import { clientsStyles } from "../../clientsContainer-styles/clientsStyles.styles";
 import authStore from "../../../../mobX/auth.store";
 import { useNavigate } from "react-router-dom";
 

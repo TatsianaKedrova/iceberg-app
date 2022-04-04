@@ -10,9 +10,9 @@ import {
 } from "@mui/material";
 import React from "react";
 import { Client } from "../../../../dtos/authDTO/authentication-result.dto";
-import { clientsStyles } from "../../styles/clientsStyles.styles";
-import StyledBodyTableCell from "../AllRegisteredClientsTable/StyledBodyTableCell";
-import StyledHeaderTableCell from "../AllRegisteredClientsTable/StyledHeaderTableCell";
+import { clientsStyles } from "../../clientsContainer-styles/clientsStyles.styles";
+import StyledBodyTableCell from "./StyledBodyTableCell";
+import StyledHeaderTableCell from "./StyledHeaderTableCell";
 
 interface ITableWithClientsUIProps {
   clients: Client[] | undefined | null;

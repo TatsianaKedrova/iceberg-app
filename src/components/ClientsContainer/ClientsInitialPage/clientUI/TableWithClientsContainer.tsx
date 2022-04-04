@@ -3,7 +3,7 @@ import clientsStore from "../../../../mobX/clients.store";
 import { observer } from "mobx-react-lite";
 import { useNavigate } from "react-router-dom";
 import { Client } from "../../../../dtos/authDTO/authentication-result.dto";
-import TableWithClientsUI from "../clientUI/TableWithClientsUI";
+import TableWithClientsUI from "./TableWithClientsUI";
 
 interface ITableWithClientsContainerProps {
   availableClients: Client[] | undefined | null;

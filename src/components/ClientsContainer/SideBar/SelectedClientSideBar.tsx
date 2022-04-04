@@ -4,7 +4,7 @@ import clientsStore from "../../../mobX/clients.store";
 import { ReactComponent as Users } from "../../assets/menuIcons/usersIcon.svg";
 import { ReactComponent as InactiveArrow } from "../../assets/menuIcons/inactiveArrow.svg";
 import { ReactComponent as ActiveArrow } from "../../assets/menuIcons/activeArrow.svg";
-import { clientsStyles } from "../styles/clientsStyles.styles";
+import { clientsStyles } from "../clientsContainer-styles/clientsStyles.styles";
 import { useNavigate } from "react-router-dom";
 import { observer } from "mobx-react-lite";
 

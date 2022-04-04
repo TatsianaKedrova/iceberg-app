@@ -1,6 +1,6 @@
 import React, { ChangeEvent, useEffect, useState } from "react";
 import { useQuery } from "react-query";
-import TableWithClients from "../AllRegisteredClientsTable/TableWithClientsContainer";
+import TableWithClients from "../clientUI/TableWithClientsContainer";
 import { observer } from "mobx-react-lite";
 import LoadingIcon from "../../../commonElements/LoadingIcon";
 import { authService, clientService } from "../../../../services";

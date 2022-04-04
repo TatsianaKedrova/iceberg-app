@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import React from 'react';
-import { clientsStyles } from '../ClientsContainer/styles/clientsStyles.styles';
+import { clientsStyles } from '../ClientsContainer/clientsContainer-styles/clientsStyles.styles';
 import { dashboardStyles } from './dashboard.styles';
 
 type DashboardItemTitlesProps = {

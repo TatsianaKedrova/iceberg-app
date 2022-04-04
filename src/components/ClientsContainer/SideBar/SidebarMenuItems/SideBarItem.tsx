@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
 import React from "react";
-import { clientsStyles } from "../../styles/clientsStyles.styles";
+import { clientsStyles } from "../../clientsContainer-styles/clientsStyles.styles";
 import { Stack } from "@mui/material";
 import { ReactNode } from "react";
 
