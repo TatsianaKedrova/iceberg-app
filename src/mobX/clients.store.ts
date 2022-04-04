@@ -1,6 +1,6 @@
-import { clientService } from "./../data-services/index";
+import { clientService } from "./../services/index";
 import { action, makeAutoObservable } from "mobx";
-import ClientsService from "../data-services/ClientsService";
+import ClientsService from "../services/ClientsService";
 import { Client } from "../dtos/authDTO/authentication-result.dto";
 
 class ClientsStore {

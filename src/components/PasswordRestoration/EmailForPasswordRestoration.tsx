@@ -3,7 +3,7 @@ import { classValidatorResolver } from "@hookform/resolvers/class-validator";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { PasswordRestoreWitEmail } from "../UI/FormComponents/ClassValidator";
 import { useNavigate } from "react-router-dom";
-import { authService } from "../../data-services";
+import { authService } from "../../services";
 import { useMutation } from "react-query";
 import { Button, CircularProgress, Container, Stack } from "@mui/material";
 import ButtonCommon from "../commonElements/ButtonCommon";

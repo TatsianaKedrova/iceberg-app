@@ -1,4 +1,4 @@
-import { authService } from "./../data-services/index";
+import { authService } from "./../services/index";
 import { action, computed, makeAutoObservable } from "mobx";
 import axios from "axios";
 import {
@@ -7,7 +7,7 @@ import {
   User,
   UserRegistrationModel,
 } from "../dtos/authDTO/authentication-result.dto";
-import AuthenticationService from "../data-services/AuthenticationService";
+import AuthenticationService from "../services/AuthenticationService";
 import clientsStore from "./clients.store";
 
 type isServerError = {

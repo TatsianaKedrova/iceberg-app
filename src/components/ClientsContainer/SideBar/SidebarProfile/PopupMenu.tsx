@@ -1,7 +1,7 @@
 import React from "react";
 import { Menu, MenuItem } from "@mui/material";
 import { clientsStyles } from "../../clientsStyles.styles";
-import authStore from "../../../../bll/auth.store";
+import authStore from "../../../../mobX/auth.store";
 import { useNavigate } from "react-router-dom";
 
 type PopupMenu = {

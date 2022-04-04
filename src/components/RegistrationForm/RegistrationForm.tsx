@@ -13,12 +13,12 @@ import { Typography } from "@mui/material";
 import { useMutation, useQuery } from "react-query";
 import StepperInitial from "./steppers/StepperInitial";
 import StepperCodeVerification from "./steppers/StepperCodeVerification";
-import { authService, clientService } from "../../data-services/index";
+import { authService, clientService } from "../../services/index";
 import { VerifyCodeType } from "../../dtos/authDTO/authentication-result.dto";
 import StepperPasswordConfirmation from "./steppers/StepperPasswordConfirmation";
 import StepperClientId from "./steppers/StepperClientId";
 import AlertMessage from "./AlertMessage";
-import authStore from "../../bll/auth.store";
+import authStore from "../../mobX/auth.store";
 
 const steps = [
   {

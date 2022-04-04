@@ -7,7 +7,7 @@ import { ReactComponent as HighSeverity } from "../../assets/dashboardIcons/redE
 import { ReactComponent as MediumSeverity } from "../../assets/dashboardIcons/orangeEllipse.svg";
 import { ReactComponent as LowSeverity } from "../../assets/dashboardIcons/yellowEllipse.svg";
 import { useQuery } from "react-query";
-import { cloudAccountsService } from "../../../data-services";
+import { cloudAccountsService } from "../../../services";
 import ResourcesModel from "./ResourcesModel";
 
 const ResourcesPercentage = () => {

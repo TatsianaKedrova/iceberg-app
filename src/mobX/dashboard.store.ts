@@ -1,6 +1,6 @@
 import { action, makeAutoObservable } from "mobx";
-import { cloudAccountsService } from "../data-services";
-import CloudAccountsService from "../data-services/CloudAccountsService";
+import { cloudAccountsService } from "../services";
+import CloudAccountsService from "../services/CloudAccountsService";
 import {
   DashboardCostSummaryAndForecast,
   DashboardEstimatedCostSavings,

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Box, Collapse, Stack } from "@mui/material";
-import authStore from "../../../../bll/auth.store";
+import authStore from "../../../../mobX/auth.store";
 import { observer } from "mobx-react-lite";
 import { clientsStyles } from "../../clientsStyles.styles";
 import PopupMenu from "./PopupMenu";
 import { ReactComponent as ChevronLeft } from "../../../assets/menuIcons/chevronLeft.svg";
-import clientsStore from "../../../../bll/clients.store";
+import clientsStore from "../../../../mobX/clients.store";
 
 type ProfileMenuProps = {
   isOpened?: boolean;

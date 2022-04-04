@@ -5,9 +5,9 @@ import TextInput from "../../UI/FormComponents/TextInput";
 import Box from "@mui/material/Box";
 import { Button, CircularProgress, InputAdornment } from "@mui/material";
 import { useQuery } from "react-query";
-import authStore from "../../../bll/auth.store";
+import authStore from "../../../mobX/auth.store";
 import { Navigate } from "react-router-dom";
-import { authService } from "../../../data-services";
+import { authService } from "../../../services";
 import { useFormContext } from "react-hook-form";
 
 const regexClientId =

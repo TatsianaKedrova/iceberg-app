@@ -2,7 +2,7 @@ import { Box, Stack } from "@mui/material";
 import { observer } from "mobx-react-lite";
 import React, { useMemo, useState } from "react";
 import { useQuery } from "react-query";
-import { cloudAccountsService } from "../../../data-services";
+import { cloudAccountsService } from "../../../services";
 import Chart from "react-google-charts";
 import { GoogleViz } from "react-google-charts/dist/types";
 import isObject from "lodash-es/isObject";

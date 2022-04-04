@@ -2,7 +2,7 @@ import { Box, Stack, Typography, useTheme } from "@mui/material";
 import { observer } from "mobx-react-lite";
 import React from "react";
 import { useQuery } from "react-query";
-import { cloudAccountsService } from "../../data-services";
+import { cloudAccountsService } from "../../services";
 import { ReactComponent as Timer } from "../assets/dashboardIcons/timer.svg";
 import { dashboardStyles } from "./dashboard.styles";
 import DashboardContainer from "./DashboardContainer";

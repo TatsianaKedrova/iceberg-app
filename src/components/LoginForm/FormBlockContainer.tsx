@@ -10,7 +10,7 @@ import TextInput from "../UI/FormComponents/TextInput";
 import LabelForm from "../UI/FormComponents/LabelForm";
 import ButtonCommon from "../commonElements/ButtonCommon";
 import { LoginFormTypes } from "../UI/FormComponents/ClassValidator";
-import authStore from "../../bll/auth.store";
+import authStore from "../../mobX/auth.store";
 import { LogInType } from "../../dtos/authDTO/authentication-result.dto";
 import { Navigate } from "react-router-dom";
 import logIn from "../assets/authIcons/logIn.svg";

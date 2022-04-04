@@ -6,7 +6,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import clientsStore from "../../../../bll/clients.store";
+import clientsStore from "../../../../mobX/clients.store";
 import { styled } from "@mui/material/styles";
 import { observer } from "mobx-react-lite";
 import StyledHeaderTableCell from "./StyledHeaderTableCell";

@@ -4,7 +4,7 @@ import { IStepperFormProps } from "../../UI/FormComponents/formTypes.types";
 import LabelForm from "../../UI/FormComponents/LabelForm";
 import TextInput from "../../UI/FormComponents/TextInput";
 import CircularProgress from "@mui/material/CircularProgress";
-import { authService } from "../../../data-services";
+import { authService } from "../../../services";
 import { useFormContext } from "react-hook-form";
 import { useMutation } from "react-query";
 

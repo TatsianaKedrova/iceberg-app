@@ -1,6 +1,6 @@
 import { Box, Menu, MenuItem, Stack } from "@mui/material";
 import React, { useState } from "react";
-import clientsStore from "../../../bll/clients.store";
+import clientsStore from "../../../mobX/clients.store";
 import { ReactComponent as Users } from "../../assets/menuIcons/usersIcon.svg";
 import { ReactComponent as InactiveArrow } from "../../assets/menuIcons/inactiveArrow.svg";
 import { ReactComponent as ActiveArrow } from "../../assets/menuIcons/activeArrow.svg";

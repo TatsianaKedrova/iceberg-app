@@ -6,7 +6,7 @@ import { useQuery } from "react-query";
 import TableWithClients from "./TableWithClients";
 import { observer } from "mobx-react-lite";
 import LoadingIcon from "../../../commonElements/LoadingIcon";
-import { authService, clientService } from "../../../../data-services";
+import { authService, clientService } from "../../../../services";
 
 const AllRegisteredClientsContainer = observer(() => {
 

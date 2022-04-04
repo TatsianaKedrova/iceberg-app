@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { RootThemeProvider } from './RootThemeProvider';
 import { CssBaseline } from '@mui/material';
 import reportWebVitals from './reportWebVitals';
-import Roots from './components/root/Roots';
+import Roots from './components/AppEntrance_components/Roots';
 import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
