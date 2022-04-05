@@ -2,7 +2,7 @@ import { Box, Stack, useTheme } from "@mui/material";
 import { observer } from "mobx-react-lite";
 import React, { ReactNode, useMemo } from "react";
 import { dashboardStyles } from "../dashboard.styles";
-import {ReactComponent as ArrowUpp} from "../../assets/dashboardIcons/arrow-up.svg";
+import {ReactComponent as ArrowUpp} from "../../../assets/dashboardIcons/arrow-up.svg";
 
 type CostComponentProps = {
   amount?: number;

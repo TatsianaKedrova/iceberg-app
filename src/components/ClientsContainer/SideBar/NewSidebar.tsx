@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { clientsStyles } from "../clientsContainer-styles/clientsStyles.styles";
 import SideBarContainer from "./SidebarMenuItems/SideBarContainer";
 import ProfileMenu from "./SidebarProfile/ProfileMenu";
-import { ReactComponent as LogoIceberg } from "../../assets/menuIcons/icebergLogo.svg";
+import { ReactComponent as LogoIceberg } from "../../../assets/menuIcons/icebergLogo.svg";
 import Collapse from "@mui/material/Collapse";
 
 export default function NewSidebar() {

@@ -1,5 +1,5 @@
 import { Box, Container, Grid } from "@mui/material";
-import CommonPicture from "../commonElements/CommonPicture";
+import CommonPicture from "../../commonElements/CommonPicture";
 import { formStyles } from "./formStyles.styles";
 
 type FormContainerType = {};

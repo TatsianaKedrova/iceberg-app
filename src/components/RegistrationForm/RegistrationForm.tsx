@@ -6,7 +6,7 @@ import StepLabel from "@mui/material/StepLabel";
 import StepContent from "@mui/material/StepContent";
 import { useForm, SubmitHandler, FormProvider } from "react-hook-form";
 import { classValidatorResolver } from "@hookform/resolvers/class-validator";
-import { FormInputsValidation } from "../UI/FormComponents/ClassValidator";
+import { FormInputsValidation } from "../../commonElements/FormComponents/ClassValidator";
 import { formStyles } from "../LoginForm/formStyles.styles";
 import { observer } from "mobx-react-lite";
 import { Typography } from "@mui/material";

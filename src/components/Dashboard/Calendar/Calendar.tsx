@@ -1,7 +1,7 @@
 import { Box, Stack, useTheme } from "@mui/material";
 import React, { MouseEvent, useMemo, useState } from "react";
 import { dashboardStyles } from "../dashboard.styles";
-import { ReactComponent as CalendarIcon } from "../../assets/dashboardIcons/calendar.svg";
+import { ReactComponent as CalendarIcon } from "../../../assets/dashboardIcons/calendar.svg";
 import DashboardGraphicsContainer from "../DashboardGraphicsContainer/DashboardGraphicsContainer";
 
 const Calendar = () => {

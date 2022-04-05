@@ -1,6 +1,6 @@
 import Stack from "@mui/material/Stack";
 import React from "react";
-import separator from "../../assets/menuIcons/separator.svg";
+import separator from "../../../assets/menuIcons/separator.svg";
 import { Box } from "@mui/material";
 import { observer } from "mobx-react-lite";
 import { MenuItemType } from "./SidebarMenuItems/SideBarContainer";

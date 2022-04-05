@@ -12,7 +12,6 @@ import Calendar from "./Calendar/Calendar";
 import CostSavingsContainer from "./CostSummarySavings/CostSavingsContainer";
 import CostSummaryContainer from "./CostSummarySavings/CostSummaryContainer";
 import { dashboardStyles } from "./dashboard.styles";
-import DashboardGraphicsContainer from "./DashboardGraphicsContainer/DashboardGraphicsContainer";
 import DashboardItemTitles from "./DashboardItemTitles";
 import DashboardOptionsToggle from "./DashboardOptionsToggle";
 import IcebergChecks from "./IcebergChecks/IcebergChecks";

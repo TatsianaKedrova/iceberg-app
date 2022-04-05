@@ -1,5 +1,5 @@
 import React from "react";
-import { formStyles } from "../LoginForm/formStyles.styles";
+import { formStyles } from "../components/LoginForm/formStyles.styles";
 import Box from "@mui/material/Box";
 
 type HeaderTextPropsType = {};

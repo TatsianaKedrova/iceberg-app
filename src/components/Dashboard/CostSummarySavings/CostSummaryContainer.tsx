@@ -1,16 +1,16 @@
 import { Box } from "@mui/material";
 import { observer } from "mobx-react-lite";
 import React from "react";
-import { ReactComponent as LastMonth } from "../../assets/dashboardIcons/lastMonth.svg";
-import { ReactComponent as CostToDate } from "../../assets/dashboardIcons/costToDate.svg";
-import { ReactComponent as FastForward } from "../../assets/dashboardIcons/fastForward.svg";
+import { ReactComponent as LastMonth } from "../../../assets/dashboardIcons/lastMonth.svg";
+import { ReactComponent as CostToDate } from "../../../assets/dashboardIcons/costToDate.svg";
+import { ReactComponent as FastForward } from "../../../assets/dashboardIcons/fastForward.svg";
 import { UseQueryResult } from "react-query";
 import { AxiosResponse } from "axios";
 
 import CostComponent from "./CostComponent";
 import { APIResponse } from "../../../dtos/authDTO/authentication-result.dto";
 import { DashboardCostSummaryAndForecast } from "../../../dtos/clientsDTO/clients.dto";
-import LoadingIcon from "../../commonElements/LoadingIcon";
+import LoadingIcon from "../../../commonElements/LoadingIcon";
 import { dashboardStyles } from "../dashboard.styles";
 
 type CostSummaryContainerProps = {

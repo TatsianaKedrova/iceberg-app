@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import Box from "@mui/material/Box";
-import { IStepperFormProps } from "../../UI/FormComponents/formTypes.types";
-import LabelForm from "../../UI/FormComponents/LabelForm";
-import TextInput from "../../UI/FormComponents/TextInput";
+import { IStepperFormProps } from "../../../commonElements/FormComponents/formTypes.types";
+import LabelForm from "../../../commonElements/FormComponents/LabelForm";
+import TextInput from "../../../commonElements/FormComponents/TextInput";
 import AlertMessage from "../AlertMessage";
 import { Button } from "@mui/material";
 import { useFormContext } from "react-hook-form";

@@ -1,8 +1,7 @@
 import { Box, Stack, useTheme } from "@mui/material";
-import React from "react";
 import { useQuery } from "react-query";
 import { cloudAccountsService } from "../../../services";
-import { ReactComponent as ResourceEmblem } from "../../assets/dashboardIcons/resourceEmblem.svg";
+import { ReactComponent as ResourceEmblem } from "../../../assets/dashboardIcons/resourceEmblem.svg";
 import { dashboardStyles } from "../dashboard.styles";
 
 const ResourcesInfoContainer = () => {

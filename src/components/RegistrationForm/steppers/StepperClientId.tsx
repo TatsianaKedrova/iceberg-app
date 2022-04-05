@@ -1,7 +1,7 @@
 import React from "react";
-import { IStepperFormProps } from "../../UI/FormComponents/formTypes.types";
-import LabelForm from "../../UI/FormComponents/LabelForm";
-import TextInput from "../../UI/FormComponents/TextInput";
+import { IStepperFormProps } from "../../../commonElements/FormComponents/formTypes.types";
+import LabelForm from "../../../commonElements/FormComponents/LabelForm";
+import TextInput from "../../../commonElements/FormComponents/TextInput";
 import Box from "@mui/material/Box";
 import { Button, CircularProgress, InputAdornment } from "@mui/material";
 import { useQuery } from "react-query";

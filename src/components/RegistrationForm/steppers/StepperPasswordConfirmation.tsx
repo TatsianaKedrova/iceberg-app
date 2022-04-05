@@ -1,7 +1,7 @@
 import React from "react";
-import LabelForm from "../../UI/FormComponents/LabelForm";
-import PasswordInput from "../../UI/FormComponents/PasswordInput";
-import { IStepperFormProps } from "../../UI/FormComponents/formTypes.types";
+import LabelForm from "../../../commonElements/FormComponents/LabelForm";
+import PasswordInput from "../../../commonElements/FormComponents/PasswordInput";
+import { IStepperFormProps } from "../../../commonElements/FormComponents/formTypes.types";
 import { Box, Button } from "@mui/material";
 import { useFormContext } from "react-hook-form";
 

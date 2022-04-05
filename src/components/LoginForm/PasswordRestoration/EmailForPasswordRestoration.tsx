@@ -1,14 +1,13 @@
-import React from "react";
 import { classValidatorResolver } from "@hookform/resolvers/class-validator";
 import { SubmitHandler, useForm } from "react-hook-form";
-import { PasswordRestoreWitEmail } from "../../UI/FormComponents/ClassValidator";
+import { PasswordRestoreWitEmail } from "../../../commonElements/FormComponents/ClassValidator";
 import { useNavigate } from "react-router-dom";
 import { authService } from "../../../services";
 import { useMutation } from "react-query";
-import { Button, CircularProgress, Container, Stack } from "@mui/material";
-import ButtonCommon from "../../commonElements/ButtonCommon";
-import LabelForm from "../../UI/FormComponents/LabelForm";
-import TextInput from "../../UI/FormComponents/TextInput";
+import { Button, CircularProgress, Stack } from "@mui/material";
+import ButtonCommon from "../../../commonElements/ButtonCommon";
+import LabelForm from "../../../commonElements/FormComponents/LabelForm";
+import TextInput from "../../../commonElements/FormComponents/TextInput";
 import { formStyles } from "../formStyles.styles";
 import { Box } from "@mui/system";
 

@@ -1,8 +1,8 @@
 import React, { useCallback } from "react";
 import { Box, Button, InputAdornment } from "@mui/material";
-import { IStepperFormProps } from "../../UI/FormComponents/formTypes.types";
-import LabelForm from "../../UI/FormComponents/LabelForm";
-import TextInput from "../../UI/FormComponents/TextInput";
+import { IStepperFormProps } from "../../../commonElements/FormComponents/formTypes.types";
+import LabelForm from "../../../commonElements/FormComponents/LabelForm";
+import TextInput from "../../../commonElements/FormComponents/TextInput";
 import CircularProgress from "@mui/material/CircularProgress";
 import { authService } from "../../../services";
 import { useFormContext } from "react-hook-form";

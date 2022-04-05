@@ -1,11 +1,11 @@
 import { Box, Stack, useTheme } from "@mui/material";
 import React from "react";
 import { dashboardStyles } from "../dashboard.styles";
-import { ReactComponent as GreenTick } from "../../assets/dashboardIcons/greenTick.svg";
-import { ReactComponent as RedCross } from "../../assets/dashboardIcons/redCross.svg";
-import { ReactComponent as HighSeverity } from "../../assets/dashboardIcons/redEllipse.svg";
-import { ReactComponent as MediumSeverity } from "../../assets/dashboardIcons/orangeEllipse.svg";
-import { ReactComponent as LowSeverity } from "../../assets/dashboardIcons/yellowEllipse.svg";
+import { ReactComponent as GreenTick } from "../../../assets/dashboardIcons/greenTick.svg";
+import { ReactComponent as RedCross } from "../../../assets/dashboardIcons/redCross.svg";
+import { ReactComponent as HighSeverity } from "../../../assets/dashboardIcons/redEllipse.svg";
+import { ReactComponent as MediumSeverity } from "../../../assets/dashboardIcons/orangeEllipse.svg";
+import { ReactComponent as LowSeverity } from "../../../assets/dashboardIcons/yellowEllipse.svg";
 import { useQuery } from "react-query";
 import { cloudAccountsService } from "../../../services";
 import ResourcesModel from "./ResourcesModel";

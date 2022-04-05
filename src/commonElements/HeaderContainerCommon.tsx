@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import { formStyles } from "../LoginForm/formStyles.styles";
+import { formStyles } from "../components/LoginForm/formStyles.styles";
 import logoIceberg from "../assets/authIcons/logoIceberg.svg";
 
 type HeaderContainerCommonPropsType = {};

@@ -2,15 +2,15 @@ import React from "react";
 import { Box } from "@mui/material";
 import { observer } from "mobx-react-lite";
 import CostComponent from "./CostComponent";
-import { ReactComponent as AverageSpend } from "../../assets/dashboardIcons/averageSpent.svg";
-import { ReactComponent as EstimatedSavings } from "../../assets/dashboardIcons/estimatedSavings.svg";
-import { ReactComponent as EstimatedBill } from "../../assets/dashboardIcons/estimatedBill.svg";
+import { ReactComponent as AverageSpend } from "../../../assets/dashboardIcons/averageSpent.svg";
+import { ReactComponent as EstimatedSavings } from "../../../assets/dashboardIcons/estimatedSavings.svg";
+import { ReactComponent as EstimatedBill } from "../../../assets/dashboardIcons/estimatedBill.svg";
 import { UseQueryResult } from "react-query";
 import { AxiosResponse } from "axios";
 import { dashboardStyles } from "../dashboard.styles";
 import { APIResponse } from "../../../dtos/authDTO/authentication-result.dto";
 import { DashboardEstimatedCostSavings } from "../../../dtos/clientsDTO/clients.dto";
-import LoadingIcon from "../../commonElements/LoadingIcon";
+import LoadingIcon from "../../../commonElements/LoadingIcon";
 
 type CostSavingsContainerProps = {
   costSavings: UseQueryResult<

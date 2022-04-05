@@ -1,6 +1,6 @@
 import { Box, InputAdornment, Typography } from "@mui/material";
 import React from "react";
-import TextInput from "../../../UI/FormComponents/TextInput";
+import TextInput from "../../../../commonElements/FormComponents/TextInput";
 import SearchIcon from "@mui/icons-material/Search";
 
 interface AllRegisteredClientsUIProps {

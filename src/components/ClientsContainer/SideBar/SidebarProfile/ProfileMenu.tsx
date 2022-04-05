@@ -4,8 +4,7 @@ import authStore from "../../../../mobX/auth.store";
 import { observer } from "mobx-react-lite";
 import { clientsStyles } from "../../clientsContainer-styles/clientsStyles.styles";
 import PopupMenu from "./PopupMenu";
-import { ReactComponent as ChevronLeft } from "../../../assets/menuIcons/chevronLeft.svg";
-import clientsStore from "../../../../mobX/clients.store";
+import { ReactComponent as ChevronLeft } from "../../../../assets/menuIcons/chevronLeft.svg";
 
 type ProfileMenuProps = {
   isOpened?: boolean;
@@ -18,8 +17,6 @@ const ProfileMenu: React.FC<ProfileMenuProps> = observer(
 
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
     const [chevronTransition, setChevronTransition] = useState(false);
-
-    // console.log("chevron: ", chevronTransition);
 
     const open = Boolean(anchorEl);
 

@@ -1,10 +1,10 @@
 import React, { ReactNode } from "react";
-import { ReactComponent as AlertIcon } from "../../../assets/menuIcons/alertFrame.svg";
-import { ReactComponent as DashBoardIcon } from "../../../assets/menuIcons/dashboard.svg";
-import { ReactComponent as AWSIcon } from "../../../assets/menuIcons/awsIcon.svg";
-import { ReactComponent as RulesIcon } from "../../../assets/menuIcons/rulesIcon.svg";
-import { ReactComponent as ReportsIcon } from "../../../assets/menuIcons/reportsIcon.svg";
-import { ReactComponent as SettingsIcon } from "../../../assets/menuIcons/settingsIcon.svg";
+import { ReactComponent as AlertIcon } from "../../../../assets/menuIcons/alertFrame.svg";
+import { ReactComponent as DashBoardIcon } from "../../../../assets/menuIcons/dashboard.svg";
+import { ReactComponent as AWSIcon } from "../../../../assets/menuIcons/awsIcon.svg";
+import { ReactComponent as RulesIcon } from "../../../../assets/menuIcons/rulesIcon.svg";
+import { ReactComponent as ReportsIcon } from "../../../../assets/menuIcons/reportsIcon.svg";
+import { ReactComponent as SettingsIcon } from "../../../../assets/menuIcons/settingsIcon.svg";
 import { observer } from "mobx-react-lite";
 import SideBarContainerOpened from "../SideBarContainerOpened";
 

@@ -1,13 +1,6 @@
-import { APIResponse } from "./../../../dtos/authDTO/authentication-result.dto";
-import {
-  FieldErrors,
-  FieldNamesMarkedBoolean,
-  UseFormRegister,
-  UseFormTrigger,
-} from "react-hook-form";
 import { UseMutationResult } from "react-query";
-import { FormInputsValidation } from "./ClassValidator";
 import { AxiosResponse } from "axios";
+import { APIResponse } from "../../dtos/authDTO/authentication-result.dto";
 
 export interface IRegistrationFormValues {
   email: string;

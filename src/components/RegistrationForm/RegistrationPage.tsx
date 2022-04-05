@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import FormContainer from "../LoginForm/FormContainer";
 import RedirectComponent from "../LoginForm/RedirectComponent";
-import HeaderContainerCommon from "../commonElements/HeaderContainerCommon";
+import HeaderContainerCommon from "../../commonElements/HeaderContainerCommon";
 import FormTitleBig from "../LoginForm/FormTitleBig";
 import FormTitleSmall from "../LoginForm/FormTitleSmall";
 import { formStyles } from "../LoginForm/formStyles.styles";

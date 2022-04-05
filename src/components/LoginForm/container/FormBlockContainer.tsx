@@ -3,7 +3,7 @@ import { formStyles } from "../formStyles.styles";
 import Box from "@mui/material/Box";
 import { observer } from "mobx-react-lite";
 import { classValidatorResolver } from "@hookform/resolvers/class-validator";
-import { LoginFormTypes } from "../../UI/FormComponents/ClassValidator";
+import { LoginFormTypes } from "../../../commonElements/FormComponents/ClassValidator";
 import authStore from "../../../mobX/auth.store";
 import { LogInType } from "../../../dtos/authDTO/authentication-result.dto";
 import { Navigate } from "react-router-dom";

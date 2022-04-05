@@ -1,13 +1,13 @@
 import React from "react";
 import { Box, Stack } from "@mui/material";
 import { formStyles } from "../formStyles.styles";
-import TextInput from "../../UI/FormComponents/TextInput";
-import LabelForm from "../../UI/FormComponents/LabelForm";
-import PasswordInput from "../../UI/FormComponents/PasswordInput";
-import ButtonCommon from "../../commonElements/ButtonCommon";
+import TextInput from "../../../commonElements/FormComponents/TextInput";
+import LabelForm from "../../../commonElements/FormComponents/LabelForm";
+import PasswordInput from "../../../commonElements/FormComponents/PasswordInput";
+import ButtonCommon from "../../../commonElements/ButtonCommon";
 import RedirectComponent from "../RedirectComponent";
 import authStore from "../../../mobX/auth.store";
-import logIn from "../../assets/authIcons/logIn.svg";
+import logIn from "../../../assets/authIcons/logIn.svg";
 import {
   FieldErrors,
   FieldNamesMarkedBoolean,
@@ -15,7 +15,7 @@ import {
   UseFormRegister,
   UseFormGetValues,
 } from "react-hook-form";
-import { LoginFormTypes } from "../../UI/FormComponents/ClassValidator";
+import { LoginFormTypes } from "../../../commonElements/FormComponents/ClassValidator";
 
 interface IFormContainerUI {
   errors: FieldErrors;
